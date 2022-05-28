@@ -31,7 +31,7 @@ User(Student) – marks  -> One to many
 ______________________________________________________________________________________________________
 
 
-HTTP request -> url (https://localhost:8080/students/1)
+HTTP request -> url (https://localhost:8080/students/addMarks/1)
              -> RequestType : GET, POST, PUT, DELETE, HEAD
              -> RequestBody : JSON/XML/TEXT
              -> Header : Metadata in key/value format
@@ -75,6 +75,7 @@ ________________________________________________________________________________
 
 Regular HTML -> 
 
+<!--
 <!DOCTYPE html> <!--HTML 5-->
 <html>
 <head>
@@ -87,3 +88,4 @@ Regular HTML ->
 
 </body>
 </html>
+-->
